@@ -123,7 +123,6 @@ lib.events =
     [defines.events.on_player_placed_equipment] = reevaluate,
     [defines.events.on_player_removed_equipment] = reevaluate,
     [defines.events.on_built_entity] = on_built_entity,
-    [defines.events.on_player_joined_game] = on_built_entity,
 }
 
 
