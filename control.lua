@@ -1,5 +1,8 @@
 -- control.lua
+local event_handler = require("event_handler")
 local ground_triggers = require("__spidertrontiers__.prototypes.ground_triggers")
+
+event_handler.add_lib(require("lib/spidertron_speed_adjuster"))
 
 script.on_event({defines.events.on_built_entity},
 	function (event)

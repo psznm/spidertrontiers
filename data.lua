@@ -95,3 +95,4 @@ require("__spidertrontiers__.change_vanilla_spidertron")
 
 require("__spidertrontiers__.prototypes.spidertron_remote.recipe")
 require("__spidertrontiers__.prototypes.spidertron_remote.technology")
+require("__spidertrontiers__.prototypes.speed_adjusting_equipment")
