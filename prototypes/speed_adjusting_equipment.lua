@@ -42,7 +42,8 @@ data:extend({
     subgroup = "equipment",
     order = "d[exoskeleton]-a[exoskeleton-equipment]",
     default_request_amount = 5,
-    stack_size = 20000000
+    stack_size = 20000000,
+    flags = { "hidden" }
   },
   {
     type = "movement-bonus-equipment",
@@ -86,7 +87,8 @@ data:extend({
     subgroup = "equipment",
     order = "d[exoskeleton]-a[exoskeleton-equipment]",
     default_request_amount = 5,
-    stack_size = 20000000
+    stack_size = 20000000,
+    flags = { "hidden" }
   },
   {
     type = "generator-equipment",
@@ -129,6 +131,7 @@ data:extend({
     subgroup = "equipment",
     order = "a[energy-source]-b[fusion-reactor]",
     default_request_amount = 1,
-    stack_size = 20000000
+    stack_size = 20000000,
+    flags = { "hidden" }
   },
 })
