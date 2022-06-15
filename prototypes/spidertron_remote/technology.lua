@@ -3,7 +3,7 @@ if (settings.startup["change-spidertron-remote-recipe"].value == true) then
 		type = "technology",
 		name = "spidertron_remote",
 		icon_size = 128,
-		icon = "__spidertrontiers-circulardependency__/graphics/technology/spidertron_remote.png",
+		icon = "__spidertrontiers-community-updates__/graphics/technology/spidertron_remote.png",
 		effects = {
 			{
 				type = "unlock-recipe",
