@@ -103,7 +103,7 @@ local assault_spidertron_mk2 = {
 	          	leg = "assault-spidertron-mk2-leg-1",
 	          	mount_position = util.by_pixel(12.9, 17.8),--{0.5, -0.75},
 	          	ground_position = {1.6*1.8*1.1, 2.3*0.8*1.1},
-	          	blocking_legs = {2, 5},
+	          	blocking_legs = {2},
 	          	leg_hit_the_ground_trigger = ground_triggers.get_leg_hit_the_ground_trigger_vanilla(),
         	},
         	{ -- 2
@@ -124,14 +124,14 @@ local assault_spidertron_mk2 = {
 	          	leg = "assault-spidertron-mk2-leg-4",
 	          	mount_position = util.by_pixel(-20.9, -6.8),--{0.5, 0.75},
 	          	ground_position = {-2.7*1.3*1.1, -0.87*1.3*1.1},
-	          	blocking_legs = {3, 5},
+	          	blocking_legs = {3},
 	          	leg_hit_the_ground_trigger = ground_triggers.get_leg_hit_the_ground_trigger_vanilla(),
         	},
         	{ -- 5
 	          	leg = "assault-spidertron-mk2-leg-5",
 	          	mount_position = util.by_pixel(-12.9, 17.8),--{-0.5, -0.75},
 	          	ground_position = {-1.6*1.8*1.1, 2.3*0.8*1.1},
-	          	blocking_legs = {4, 1},
+	          	blocking_legs = {1},
 	          	leg_hit_the_ground_trigger = ground_triggers.get_leg_hit_the_ground_trigger_vanilla(),
         	}
       	},
@@ -249,10 +249,10 @@ end
 data:extend{
 	assault_spidertron_mk2,
 	assault_spidertron_mk2_remnants,
-	utils.make_spidertron_leg("assault-spidertron-mk2", 0.8, 0.06, 0.08, 1, 1, assault_spidertron_mk2_animations),
-	utils.make_spidertron_leg("assault-spidertron-mk2", 0.8, 0.06, 0.08, 1, 2, assault_spidertron_mk2_animations),
-	utils.make_spidertron_leg("assault-spidertron-mk2", 0.8, 0.06, 0.08, 1, 3, assault_spidertron_mk2_animations),
-	utils.make_spidertron_leg("assault-spidertron-mk2", 0.8, 0.06, 0.08, 1, 4, assault_spidertron_mk2_animations),
-	utils.make_spidertron_leg("assault-spidertron-mk2", 0.8, 0.06, 0.08, 1, 5, assault_spidertron_mk2_animations),
+	utils.make_spidertron_leg("assault-spidertron-mk2", 0.8, 0.06, 0.065, 1, 1, assault_spidertron_mk2_animations),
+	utils.make_spidertron_leg("assault-spidertron-mk2", 0.8, 0.06, 0.065, 1, 2, assault_spidertron_mk2_animations),
+	utils.make_spidertron_leg("assault-spidertron-mk2", 0.8, 0.06, 0.065, 1, 3, assault_spidertron_mk2_animations),
+	utils.make_spidertron_leg("assault-spidertron-mk2", 0.8, 0.06, 0.065, 1, 4, assault_spidertron_mk2_animations),
+	utils.make_spidertron_leg("assault-spidertron-mk2", 0.8, 0.06, 0.065, 1, 5, assault_spidertron_mk2_animations),
 }
 

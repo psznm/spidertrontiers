@@ -308,23 +308,24 @@ if (settings.startup["show-spidertron-legs"].value == false) then
 		bulwark_spidertron_mk2.spider_engine.legs[index].leg_hit_the_ground_trigger = nil
 	end
 end
-
+local accel = 0.05
+local init_speed = 0.02
 data:extend{
 	bulwark_spidertron_mk2,
 	bulwark_spidertron_mk2_remnants,
-	utils.make_spidertron_leg("bulwark-spidertron-mk2", 0.5, 0.06, 0.02, 1, 1, bulwark_spidertron_mk2_animations),
-	utils.make_spidertron_leg("bulwark-spidertron-mk2", 0.5, 0.06, 0.02, 1, 2, bulwark_spidertron_mk2_animations),
-	utils.make_spidertron_leg("bulwark-spidertron-mk2", 0.5, 0.06, 0.02, 1, 3, bulwark_spidertron_mk2_animations),
-	utils.make_spidertron_leg("bulwark-spidertron-mk2", 0.5, 0.06, 0.02, 1, 4, bulwark_spidertron_mk2_animations),
-	utils.make_spidertron_leg("bulwark-spidertron-mk2", 0.5, 0.06, 0.02, 1, 5, bulwark_spidertron_mk2_animations),
-	utils.make_spidertron_leg("bulwark-spidertron-mk2", 0.5, 0.06, 0.02, 1, 6, bulwark_spidertron_mk2_animations),
-	utils.make_spidertron_leg("bulwark-spidertron-mk2", 0.5, 0.06, 0.02, 1, 7, bulwark_spidertron_mk2_animations),
-	utils.make_spidertron_leg("bulwark-spidertron-mk2", 0.5, 0.06, 0.02, 1, 8, bulwark_spidertron_mk2_animations),
-	utils.make_spidertron_leg("bulwark-spidertron-mk2", 0.5, 0.06, 0.02, 1, 9, bulwark_spidertron_mk2_animations),
-	utils.make_spidertron_leg("bulwark-spidertron-mk2", 0.5, 0.06, 0.02, 1, 10, bulwark_spidertron_mk2_animations),
-	utils.make_spidertron_leg("bulwark-spidertron-mk2", 0.5, 0.06, 0.02, 1, 11, bulwark_spidertron_mk2_animations),
-	utils.make_spidertron_leg("bulwark-spidertron-mk2", 0.5, 0.06, 0.02, 1, 12, bulwark_spidertron_mk2_animations),
-	utils.make_spidertron_leg("bulwark-spidertron-mk2", 0.5, 0.06, 0.02, 1, 13, bulwark_spidertron_mk2_animations),
-	utils.make_spidertron_leg("bulwark-spidertron-mk2", 0.5, 0.06, 0.02, 1, 14, bulwark_spidertron_mk2_animations),
+	utils.make_spidertron_leg("bulwark-spidertron-mk2", 0.5, init_speed, accel, 1, 1, bulwark_spidertron_mk2_animations),
+	utils.make_spidertron_leg("bulwark-spidertron-mk2", 0.5, init_speed, accel, 1, 2, bulwark_spidertron_mk2_animations),
+	utils.make_spidertron_leg("bulwark-spidertron-mk2", 0.5, init_speed, accel, 1, 3, bulwark_spidertron_mk2_animations),
+	utils.make_spidertron_leg("bulwark-spidertron-mk2", 0.5, init_speed, accel, 1, 4, bulwark_spidertron_mk2_animations),
+	utils.make_spidertron_leg("bulwark-spidertron-mk2", 0.5, init_speed, accel, 1, 5, bulwark_spidertron_mk2_animations),
+	utils.make_spidertron_leg("bulwark-spidertron-mk2", 0.5, init_speed, accel, 1, 6, bulwark_spidertron_mk2_animations),
+	utils.make_spidertron_leg("bulwark-spidertron-mk2", 0.5, init_speed, accel, 1, 7, bulwark_spidertron_mk2_animations),
+	utils.make_spidertron_leg("bulwark-spidertron-mk2", 0.5, init_speed, accel, 1, 8, bulwark_spidertron_mk2_animations),
+	utils.make_spidertron_leg("bulwark-spidertron-mk2", 0.5, init_speed, accel, 1, 9, bulwark_spidertron_mk2_animations),
+	utils.make_spidertron_leg("bulwark-spidertron-mk2", 0.5, init_speed, accel, 1, 10, bulwark_spidertron_mk2_animations),
+	utils.make_spidertron_leg("bulwark-spidertron-mk2", 0.5, init_speed, accel, 1, 11, bulwark_spidertron_mk2_animations),
+	utils.make_spidertron_leg("bulwark-spidertron-mk2", 0.5, init_speed, accel, 1, 12, bulwark_spidertron_mk2_animations),
+	utils.make_spidertron_leg("bulwark-spidertron-mk2", 0.5, init_speed, accel, 1, 13, bulwark_spidertron_mk2_animations),
+	utils.make_spidertron_leg("bulwark-spidertron-mk2", 0.5, init_speed, accel, 1, 14, bulwark_spidertron_mk2_animations),
 }
 

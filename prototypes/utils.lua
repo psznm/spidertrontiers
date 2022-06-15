@@ -9,6 +9,7 @@ local utils = {
 
             localised_name = {"entity-name.spidertron-leg"},
             collision_box = {{-0.05, -0.05}, {0.05, 0.05}},
+            collision_mask = { "water-tile" },
             selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
             icon = "__base__/graphics/icons/spidertron.png",
             icon_size = 64, icon_mipmaps = 4,

@@ -1,4 +1,12 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.2.22
+Date: 15.06.2022
+  Changes:
+    - Improved handling of Bulwark Spidertron Mk2
+  Bugfixes:
+    - Fixed that Assault Spidertron Mk2 was sometimes slower than usual
+    - Spider legs now do not collide with cannon shells. So spidertrons will now not shoot themselves in legs.
+---------------------------------------------------------------------------------------------------
 Version: 0.2.21
 Date: 15.06.2022
   Changes:
