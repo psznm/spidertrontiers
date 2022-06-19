@@ -20,32 +20,16 @@ if (settings.startup["stack-spidertron-recipes"].value == true) then
     }
 end
 
-data.raw["technology"]["spidertron"] = {
-    type = "technology",
-    name = "spidertron",
-    icon_size = 256,
-    icon = "__base__/graphics/technology/spidertron.png",
-    effects = {
-      	{
-        	type = "unlock-recipe",
-        	recipe = "spidertron"
-      	},
-    },
-    prerequisites = {"spidertron_mk0", "military-4", "exoskeleton-equipment", "fusion-reactor-equipment", "rocket-control-unit", "effectivity-module-3" },
-    unit = {
-      	ingredients = {
-	        {"automation-science-pack", 1},
-	        {"logistic-science-pack", 1},
-	        {"military-science-pack", 1},
-	        {"chemical-science-pack", 1},
-	        {"production-science-pack", 1},
-	        {"utility-science-pack", 1}
-      	},
-    time = 30,
-    count = 2500
-    },
-    order = "d-e-g"
-}
+local modifySpidertronTech = data.raw["technology"]["spidertron"]
+
+local indexToRemove
+for k,v in pairs(modifySpidertronTech.effects) do
+    if v.recipe == "spidertron-remote" then
+        indexToRemove = k
+        break
+    end
+end
+table.remove(modifySpidertronTech.effects, indexToRemove)
 
 if (settings.startup["change-spidertron-remote-recipe"].value == false) then
     data.raw["technology"]["spidertron"].effects[#data.raw["technology"]["spidertron"].effects + 1] = {

@@ -1,4 +1,9 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.2.23
+Date: 19.06.2022
+  Bugfixes:
+    - Fixed possible compatibility issue with Constructron
+---------------------------------------------------------------------------------------------------
 Version: 0.2.22
 Date: 15.06.2022
   Changes:
@@ -10,8 +15,7 @@ Date: 15.06.2022
 Version: 0.2.21
 Date: 15.06.2022
   Changes:
-    - Mod compatibility with mods that change equipment categories of
-    spidertrons
+    - Mod compatibility with mods that change equipment categories of spidertrons
     - Unified changelog dates format
 ---------------------------------------------------------------------------------------------------
 Version: 0.2.20
