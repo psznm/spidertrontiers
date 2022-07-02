@@ -1,5 +1,5 @@
 ---------------------------------------------------------------------------------------------------
-Version: 0.2.23
+Version: 0.2.24
 Date: 02.07.2022
   Features:
     - Added fuel usage to spidertrons. This feature is toggleable in mod settings.
