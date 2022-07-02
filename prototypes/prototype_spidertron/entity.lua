@@ -94,22 +94,6 @@ local prototype_spidertron = {
     energy_source = {
       	type = "void",
     },
-    movement_energy_consumption = "250kW",
-    automatic_weapon_cycling = false,
-    chain_shooting_cooldown_modifier = 5, --modified
-    spider_engine = {
-      	legs = {
-        {
-          name = "tank-smoke",
-          deviation = {0.25, 0.25},
-          frequency = 50,
-          position = {0, -0.5},
-          starting_frame = 0,
-          starting_frame_deviation = 60
-        }
-      }
-    },
-    movement_energy_consumption = "250kW",
     automatic_weapon_cycling = false,
     chain_shooting_cooldown_modifier = 0.5,
     spider_engine = {
@@ -246,6 +230,8 @@ if (settings.startup["show-spidertron-legs"].value == false) then
         prototype_spidertron.spider_engine.legs[index].leg_hit_the_ground_trigger = nil
     end
 end
+
+require("lib/fuel").addEnergySource(prototype_spidertron, 50, 1)
 
 data:extend{
   	prototype_spidertron,

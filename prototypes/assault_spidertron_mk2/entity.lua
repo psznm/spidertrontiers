@@ -94,7 +94,6 @@ local assault_spidertron_mk2 = {
     energy_source = {
       	type = "void",
     },
-    movement_energy_consumption = "250kW",
     automatic_weapon_cycling = true,
     chain_shooting_cooldown_modifier = 1.55, --modified
     spider_engine = {
@@ -245,6 +244,8 @@ if (settings.startup["show-spidertron-legs"].value == false) then
 		assault_spidertron_mk2.spider_engine.legs[index].leg_hit_the_ground_trigger = nil
 	end
 end
+
+require("lib/fuel").addEnergySource(assault_spidertron_mk2, 50, 2)
 
 data:extend{
 	assault_spidertron_mk2,

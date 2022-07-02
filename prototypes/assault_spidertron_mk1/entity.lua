@@ -86,7 +86,7 @@ local assault_spidertron_mk1 = {
     guns = { "assault-spidertron-mk1-shotgun-1", "assault-spidertron-mk1-shotgun-2" },
     inventory_size = 15,
     equipment_grid = "assault-spidertron-mk1-equipment-grid",
-    
+
     height = 2.5,
     torso_rotation_speed = 0.005,
     chunk_exploration_radius = 1, --modified
@@ -95,7 +95,6 @@ local assault_spidertron_mk1 = {
     energy_source = {
       	type = "void",
     },
-    movement_energy_consumption = "250kW",
     automatic_weapon_cycling = true,
     chain_shooting_cooldown_modifier = 1.8, --modified
     spider_engine = {
@@ -253,6 +252,8 @@ if (settings.startup["show-spidertron-legs"].value == false) then
 		assault_spidertron_mk1.spider_engine.legs[index].leg_hit_the_ground_trigger = nil
 	end
 end
+
+require("lib/fuel").addEnergySource(assault_spidertron_mk1, 50, 1)
 
 data:extend{
 	assault_spidertron_mk1,

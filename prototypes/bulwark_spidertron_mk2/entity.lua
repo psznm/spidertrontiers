@@ -308,6 +308,9 @@ if (settings.startup["show-spidertron-legs"].value == false) then
 		bulwark_spidertron_mk2.spider_engine.legs[index].leg_hit_the_ground_trigger = nil
 	end
 end
+
+require("lib/fuel").addEnergySource(bulwark_spidertron_mk2, 100, 2)
+
 local accel = 0.05
 local init_speed = 0.02
 data:extend{

@@ -55,3 +55,5 @@ if (settings.startup["show-spidertron-legs"].value == false) then
         data.raw["spider-leg"]["spidertron-leg-"..index].walking_sound_volume_modifier = 0
     end
 end
+
+require("lib/fuel").addEnergySource(data.raw["spider-vehicle"]["spidertron"], 200, 4)

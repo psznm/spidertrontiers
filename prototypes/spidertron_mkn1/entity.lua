@@ -261,6 +261,8 @@ if (settings.startup["show-spidertron-legs"].value == false) then
     end
 end
 
+require("lib/fuel").addEnergySource(spidertron_mk_1, 150, 2)
+
 data:extend{
   	spidertron_mk_1,
   	spidertron_mk_1_remnants,
