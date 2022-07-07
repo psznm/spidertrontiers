@@ -32,7 +32,7 @@ if mods["aai-industry"] then
 end
 if mods["Krastorio2"] and mods["aai-industry"] then
     fuelTiers = {
-        { 'chemical', "processed-chemical" },
+        { 'chemical', "vehicle-fuel", "processed-chemical" },
         { 'chemical', "vehicle-fuel", "processed-chemical" },
         { "chemical", "vehicle-fuel", 'nuclear-fuel', 'nuclear', "processed-chemical" },
         { 'nuclear-fuel', 'fusion-fuel', 'nuclear' },
