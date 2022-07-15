@@ -20,3 +20,16 @@ local spidertronCategories = data.raw["equipment-grid"][spidertronGridName].equi
 for index, grid in pairs(grid_list) do
 	data.raw["equipment-grid"][grid].equipment_categories = spidertronCategories
 end
+
+if mods["Krastorio2"] then
+	for index, spider in pairs(data.raw["spider-vehicle"]) do
+		spider.is_military_target = true;
+		local mask = spider.trigger_target_mask
+		if not mask then
+			mask = {}
+		end
+
+		spider.trigger_target_mask = mask
+		table.insert(mask, "kr-tesla-coil-trigger")
+	end
+end
