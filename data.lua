@@ -92,6 +92,3 @@ require("__spidertrontiers-community-updates__.prototypes.voyage_spidertron_mk2.
 require("__spidertrontiers-community-updates__.prototypes.voyage_spidertron_mk2.technology")
 
 require("__spidertrontiers-community-updates__.change_vanilla_spidertron")
-
-require("__spidertrontiers-community-updates__.prototypes.spidertron_remote.recipe")
-require("__spidertrontiers-community-updates__.prototypes.spidertron_remote.technology")
