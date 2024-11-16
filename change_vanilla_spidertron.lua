@@ -8,7 +8,7 @@ if settings.startup["stack-spidertron-recipes"].value == true then
 		ingredients = {
 			{ name = "spidertron_mk0", amount = 1, type = "item" },
 			{ name = "exoskeleton-equipment", amount = 4, type = "item" },
-			{ name = "fusion-reactor-equipment", amount = 2, type = "item" },
+			{ name = "fission-reactor-equipment", amount = 2, type = "item" },
 			{ name = "rocket-launcher", amount = 2, type = "item" },
 			{ name = "low-density-structure", amount = 150, type = "item" },
 			{ name = "radar", amount = 2, type = "item" },

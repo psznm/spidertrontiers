@@ -9,7 +9,7 @@ if settings.startup["stack-spidertron-recipes"].value == true then
 		energy_required = 10,
 		ingredients = {
 			{ name = "exoskeleton-equipment", amount = 12, type = "item" },
-			{ name = "fusion-reactor-equipment", amount = 8, type = "item" },
+			{ name = "fission-reactor-equipment", amount = 8, type = "item" },
 			{ name = "low-density-structure", amount = 450, type = "item" },
 			{ name = "radar", amount = 6, type = "item" },
 			{ name = "raw-fish", amount = 2, type = "item" },
@@ -26,7 +26,7 @@ else
 		energy_required = 10,
 		ingredients = {
 			{ name = "exoskeleton-equipment", amount = 25, type = "item" },
-			{ name = "fusion-reactor-equipment", amount = 10, type = "item" },
+			{ name = "fission-reactor-equipment", amount = 10, type = "item" },
 			{ name = "low-density-structure", amount = 450, type = "item" },
 			{ name = "radar", amount = 12, type = "item" },
 			{ name = "raw-fish", amount = 2, type = "item" },
