@@ -35,6 +35,7 @@ local scout_spidertron_mk1 = {
 	weight = 1,
 	braking_force = 1,
 	friction_force = 1,
+	allow_remote_driving = true,
 	flags = { "placeable-neutral", "player-creation", "placeable-off-grid" },
 	minable = { mining_time = 1, result = "scout_spidertron_mk1" },
 	max_health = 200, --modified

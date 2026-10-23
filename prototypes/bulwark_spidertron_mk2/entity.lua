@@ -35,6 +35,7 @@ local bulwark_spidertron_mk2 = {
 	weight = 1,
 	braking_force = 1,
 	friction_force = 1,
+	allow_remote_driving = true,
 	flags = { "placeable-neutral", "player-creation", "placeable-off-grid" },
 	minable = { mining_time = 1, result = "bulwark_spidertron_mk2" },
 	max_health = 1500, --modified

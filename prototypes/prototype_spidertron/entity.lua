@@ -35,6 +35,7 @@ local prototype_spidertron = {
 	weight = 1,
 	braking_force = 1,
 	friction_force = 1,
+	allow_remote_driving = true,
 	flags = { "placeable-neutral", "player-creation", "placeable-off-grid" },
 	minable = { mining_time = 1, result = "prototype_spidertron" },
 	max_health = 150, --modified
