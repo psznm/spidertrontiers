@@ -36,7 +36,6 @@ local spidertron_mk0 = {
 	braking_force = 1,
 	friction_force = 1,
 	flags = { "placeable-neutral", "player-creation", "placeable-off-grid" },
-	collision_mask = { layers = {} },
 	minable = { mining_time = 1, result = "spidertron_mk0" },
 	max_health = 1500, --modified
 	resistances = {

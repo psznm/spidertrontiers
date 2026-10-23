@@ -36,7 +36,6 @@ local assault_spidertron_mk2 = {
 	braking_force = 1,
 	friction_force = 1,
 	flags = { "placeable-neutral", "player-creation", "placeable-off-grid" },
-	collision_mask = { layers = {} },
 	minable = { mining_time = 1, result = "assault_spidertron_mk2" },
 	max_health = 350, --modified
 	resistances = {

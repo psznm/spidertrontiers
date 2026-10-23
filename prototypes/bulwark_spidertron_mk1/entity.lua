@@ -36,7 +36,6 @@ local bulwark_spidertron_mk1 = {
 	braking_force = 1,
 	friction_force = 1,
 	flags = { "placeable-neutral", "player-creation", "placeable-off-grid" },
-	collision_mask = { layers = {} },
 	minable = { mining_time = 1, result = "bulwark_spidertron_mk1" },
 	max_health = 1000, --modified
 	resistances = {

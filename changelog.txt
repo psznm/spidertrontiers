@@ -1,5 +1,12 @@
 
 ---------------------------------------------------------------------------------------------------
+Version: 0.3.2
+Date: 23.10.2026
+  Compatibility:
+    - Updated for factorio 2.1
+  Bugfixes:
+    - Fixed custom spidertrons could not walk on oil ocean
+---------------------------------------------------------------------------------------------------
 Version: 0.3.1
 Date: 16.11.2024
   Compatibility:
